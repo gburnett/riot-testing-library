@@ -1,6 +1,6 @@
 {
   "name": "@gburnett/riot-testing-library",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "dist/riot-testing-library.cjs.js",
   "module": "dist/riot-testing-library.esm.js",
   "license": "MIT",
@@ -32,7 +32,8 @@
     "dev": "rollup -c -w",
     "format": "prettier --write --loglevel=silent",
     "test": "jest",
-    "pretest": "yarn build:dist && yarn build:fixtures"
+    "pretest": "yarn build:dist && yarn build:fixtures",
+    "prepack": "yarn build:dist"
   },
   "files": [
     "dist"
