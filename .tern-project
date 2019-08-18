@@ -1,0 +1,12 @@
+{
+  "libs": [
+    "ecmascript"
+  ],
+  "dontLoad": [],
+  "loadEagerly": [],
+  "plugins": {
+    "modules": {},
+    "es_modules": {},
+    "node": {}
+  }
+}
