@@ -2,7 +2,7 @@
   "name": "@gburnett/riot-testing-library",
   "description": "A simple testing library for testing Riot.js components with dom-testing-library",
   "author": "gburnett",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "dist/riot-testing-library.cjs.js",
   "module": "dist/riot-testing-library.esm.js",
   "license": "MIT",
