@@ -1,5 +1,7 @@
 {
   "name": "@gburnett/riot-testing-library",
+  "description": "A simple testing library for testing Riot.js components with dom-testing-library",
+  "author": "gburnett",
   "version": "0.2.0",
   "main": "dist/riot-testing-library.cjs.js",
   "module": "dist/riot-testing-library.esm.js",
@@ -32,6 +34,7 @@
     "dev": "rollup -c -w",
     "format": "prettier --write --loglevel=silent",
     "test": "jest",
+    "test:example": "yarn build:fixtures && jest example",
     "pretest": "yarn build:dist && yarn build:fixtures",
     "prepack": "yarn build:dist"
   },
@@ -53,5 +56,22 @@
         "yarn test"
       ]
     }
-  }
+  },
+  "keywords": [
+    "riot",
+    "testing",
+    "ui",
+    "dom",
+    "jsdom",
+    "unit",
+    "integration",
+    "functional",
+    "end-to-end",
+    "e2e"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gburnett/riot-testing-library"
+  },
+  "bugs": "https://github.com/gburnett/riot-testing-library/issues"
 }

@@ -1,0 +1,17 @@
+<hidden-message>
+  <div>
+    <label for='toggle'>Show Message</label>
+    <input id='toggle' type='checkbox' onchange={e => setShowMessage(e.target.checked)} checked={state.showMessage} />
+    <div if={state.showMessage}>{props.message}</div>
+  </div>
+  <script>
+    export default {
+      onMounted() {
+        this.update({ showMessage: false })
+      },
+      setShowMessage(showMessage) {
+        this.update({ showMessage });
+      }
+    }
+  </script>
+</hidden-message>
