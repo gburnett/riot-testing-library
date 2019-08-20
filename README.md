@@ -1,6 +1,18 @@
 # riot-testing-library
 A simple testing library for testing [Riot.js](https://riot.js.org/) components with [dom-testing-library](https://testing-library.com/)
 
+## Install
+
+``` shell
+yarn add -D @gburnett/riot-testing-library
+```
+
+or
+
+``` shell
+npm i -D @gburnett/riot-testing-library
+```
+
 ## Basic Example
 
 For a basic example see how I
